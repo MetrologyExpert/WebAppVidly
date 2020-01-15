@@ -205,11 +205,20 @@
     <Compile Include="Migrations\202001151621409_AddCustomerAndMovieTables.Designer.cs">
       <DependentUpon>202001151621409_AddCustomerAndMovieTables.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202001151627465_AddIsSubscribedToCustomer.cs" />
+    <Compile Include="Migrations\202001151627465_AddIsSubscribedToCustomer.Designer.cs">
+      <DependentUpon>202001151627465_AddIsSubscribedToCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202001151639343_AddMembershipType.cs" />
+    <Compile Include="Migrations\202001151639343_AddMembershipType.Designer.cs">
+      <DependentUpon>202001151639343_AddMembershipType.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\MembershipType.cs" />
     <Compile Include="Models\Movie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -298,6 +307,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202001151621409_AddCustomerAndMovieTables.resx">
       <DependentUpon>202001151621409_AddCustomerAndMovieTables.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202001151627465_AddIsSubscribedToCustomer.resx">
+      <DependentUpon>202001151627465_AddIsSubscribedToCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202001151639343_AddMembershipType.resx">
+      <DependentUpon>202001151639343_AddMembershipType.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
