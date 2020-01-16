@@ -221,6 +221,10 @@
     <Compile Include="Migrations\202001161011519_ApplyAnnotationToCUstomerName.Designer.cs">
       <DependentUpon>202001161011519_ApplyAnnotationToCUstomerName.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202001161029298_AddNameToMembershipType.cs" />
+    <Compile Include="Migrations\202001161029298_AddNameToMembershipType.Designer.cs">
+      <DependentUpon>202001161029298_AddNameToMembershipType.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -327,6 +331,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202001161011519_ApplyAnnotationToCUstomerName.resx">
       <DependentUpon>202001161011519_ApplyAnnotationToCUstomerName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202001161029298_AddNameToMembershipType.resx">
+      <DependentUpon>202001161029298_AddNameToMembershipType.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
