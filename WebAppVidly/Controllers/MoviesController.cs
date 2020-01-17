@@ -58,7 +58,10 @@ namespace WebAppVidly.Controllers
 
             var viewModel = new MovieFormViewModel
             {
-                Movie = movie,
+                Id = movie.Id,
+                Name = movie.Name,
+                ReleaseDate = movie.ReleaseDate,
+                NumberInStock = movie.GenreId,
                 Genres = _context.Genre.ToList()
             };
 
