@@ -19,6 +19,9 @@ namespace WebAppVidly.Dtos
 
         public byte MembershipTypeId { get; set; }
 
+        public MembershipTypeDto MembershipType { get; set; }
+
+
         [Display(Name = "Date of Birth")]
         [Min18YearsIfaMember]
         public DateTime? Birthdate { get; set; }
