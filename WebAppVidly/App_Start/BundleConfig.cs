@@ -14,7 +14,8 @@ namespace WebAppVidly
                         "~/Scripts/bootbox.js",
                         "~/Scripts/respond.js",    
                         "~/Scripts/datatables/jquery.datatables.js",
-                        "~/Scripts/datatables/datatables.bootstrap.js"));
+                        "~/Scripts/datatables/datatables.bootstrap.js" +
+                        "~/scripts/typeahead.bundle.js"));
 
 
             //bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
@@ -36,6 +37,7 @@ namespace WebAppVidly
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/datatables/css/datatables.bootstrap.css",
+                      "~/Content/typeahead.css",
                       "~/Content/site.css"));
         }
     }

@@ -54,9 +54,9 @@ namespace WebAppVidly
             //   consumerKey: "",
             //   consumerSecret: "");
 
-            //app.UseFacebookAuthentication(
-            //   appId: "",
-            //   appSecret: "");
+            app.UseFacebookAuthentication(
+               appId: "771446550008062",
+               appSecret: "ff43800745e282bee1cd7abbc5e19a0a");
 
             //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             //{

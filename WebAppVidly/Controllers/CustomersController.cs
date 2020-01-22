@@ -10,7 +10,7 @@ using WebAppVidly.ViewModel;
 namespace WebAppVidly.Controllers
 
 {
-    [Authorize]
+
     public class CustomersController : Controller
     {
         private ApplicationDbContext _context;
